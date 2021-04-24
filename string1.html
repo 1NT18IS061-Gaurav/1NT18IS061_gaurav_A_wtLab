@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+
+
+
+        <body style="background-color: aquamarine">
+           
+            
+           
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script>
+            var str = "A quick brown fox swiftly jumped over the lazy dog";
+            function findLen(){
+                var stlen = str.length;
+                document.getElementById("ln").innerHTML = stlen;
+            }
+            function findTxt(){
+                var txt = document.getElementById("fintxt").value;
+                console.log(txt)
+                var pos = str.search(`${txt}`)
+                document.getElementById("tx").innerHTML = pos;
+            }
+            function slc(){
+                var num1 = document.getElementById("slc1").value;
+                var num2 = document.getElementById("slc2").value;
+                console.log(num1);
+                console.log(num2);
+                var res = str.slice(num1,num2);
+                console.log(res)
+                document.getElementById("sc").innerHTML = res;
+            }
+            function conc(){
+            var str1 = document.getElementById("conc1").value;
+            var str2 = document.getElementById("conc2").value;
+            var res = str1.concat(str2);
+            document.getElementById("conc3").innerHTML = res;
+
+        }
+        </script>
+    </head>
+    <body>
+        <p>TRYING OUT VARIOUS STRING FUNCTIONS</p>
+        <h1>STRING FUNCTIONS</body></h1>
+        <p>Concatenation</p>
+            <input type="text" id="conc1" placeholder="Enter specific word.." />
+            <input type="text" id="conc2" placeholder="Enter specific word.." />
+            <button onclick="conc()">concatinate</button>
+            <p id="conc3"></p>    
+        
+        <b>A quick brown fox swiftly jumped over the lazy dog.</b>
+        <p> Finding the length</p>
+        <button onclick="findLen()">Find length</button>
+        <p id="ln"></p>
+        
+        <p>Enter 2 parameters</p>
+        <input type="number" id="slc1" placeholder="Enter 1st param.." />&nbsp;<input type="number" id="slc2" placeholder="Enter 2nd param.." />
+        <button onclick="slc()">Search</button>
+        <p id="sc"></p>
+        <body>
+
+            <p> Sentence Reversal</p>
+            <button onclick="myFunction()">Click</button>
+            <p id="demo"></p>
+
+            <script>
+            var fruits = ["Dodge", "Porsche", "BMW", "Mercedes"];
+            document.getElementById("demo").innerHTML = fruits;
+            
+            function myFunction() {
+              fruits.reverse();
+              document.getElementById("demo").innerHTML = fruits;
+            }
+            </script>
+
+
+           <p>Finding the first occurrence</p>
+           <input type="text" id="fintxt" placeholder="Enter specific word.." />
+           <button onclick="findTxt()">Search</button>
+            <p id="tx"></p>
+
+      
+    </body>
+    </html
