@@ -1,0 +1,318 @@
+Index
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style1.css">
+        <title> Tiger </title>
+        <style>
+        body {
+                text-align:center;
+        }
+            </style>
+    </head>
+
+    <body >
+<h1><b>WILD CATS</b></h1>
+        <a href="P1.HTML" ><img src="lionking.jpeg"></a>
+
+</br><br>
+<a  href="p2.html">BREED</a>
+
+<br><br>
+
+<a  href="P3.HTML">TABLE</a>
+
+<br><br>
+
+<a  href="P4.HTML">FORM</a>
+</BODY>
+</html>
+
+p1
+<!doctype html>
+<html>
+    <head>
+            <style>
+                    h1 {
+                      color: blue;
+                      font-family: verdana;
+                      font-size: 300%;
+                    }
+                    p {
+                      color: red;
+                      font-family: courier;
+                      font-size: 160%;
+                    }
+                    </style>
+    </head>
+    <body style="background-color:red;">
+        <video controls width="300px" height="300px">
+            <source src="Tiger.webm">
+        </video>
+        <br><br><br>
+        <audio controls >
+            <source src="audio.mp3">
+        </audio>
+    </body>
+</html>
+
+p2
+<!DOCTYPE html>
+<html>
+    <head>
+            <style>
+                    h1 {
+                      border: 5px solid rebeccapurple;
+                      color: red;
+                      font-family: verdana;
+                      font-size: 300%;
+                    }
+                    p {
+                      color:blue;
+                      font-family: courier;
+                      font-size: 160%;
+                    }
+                    </style>
+    </head>
+    <body style="background-color:wheat;">
+        <H1><b>BREEDS ARE </b></H1>
+        <OL>
+            <li>Bengal cat</li>
+            <li>Tiger</li>
+            <li>Chausie</li>
+            <li>Ocicat</li>
+        </OL>
+<br><br><br>
+
+         <ul>
+             <li>Bengal cat</li>
+             <li>Tiger</li>
+             <li>Chausie</li>
+             <li>Ocicat</li>
+         </ul>
+    </body>
+    
+</html>
+
+
+p3
+<!DOCTYPE html>
+<html>
+    <head>
+            <style>
+                    h1 {
+                      color: blue;
+                      font-family: verdana;
+                      font-size: 300%;
+                    }
+                    p {
+                      color: red;
+                      font-family: courier;
+                      font-size: 160%;
+                    }
+                    th {
+                        color:white;
+                        text-shadow: 2px 2px black;
+                    }
+                    
+                    </style>
+    </head>
+    <body style="background-color:thistle">
+        <table style="width:100%"  border="10" >
+            <tr>
+                <th style=font-size:150% >BREED</th>
+                <th style=font-size:150%>COLOUR</th>
+                <th style=font-size:150%>ABOUT</th>
+                <th style=font-size:150%>IMAGE</th>
+            </tr>
+            <tr>
+                <td>Bengal cat</td>
+                <td>orange</td>
+                <td>The Bengal cat is a domesticated cat breed created from hybrids of domestic cats, especially the spotted Egyptian Mau, with the Asian leopard cat (Prionailurus bengalensis). 
+                    The breed name comes from the leopard cat's taxonomic name.
+
+                    </td>
+                     <td> <img src=download.jpeg></td>
+            </tr>
+            <tr>
+                <td>Ocicat</td>
+                <td>Grey</td>
+                <td>The Ocicat is an all-domestic breed of cat which resembles a wild cat but has no wild DNA in its gene pool. The breed is unusual
+                     in that it is spotted like a wild cat but has the temperament of a domestic animal. </td>
+                <td> <video controls>
+                    <source src="Tiger.webm">
+                </video></td>
+                    </tr>
+            <tr>
+                <td>Chausie</td>
+                <td>orange</td>
+                <td>The Bengal cat is a domesticated cat breed created from hybrids of domestic cats, especially the spotted Egyptian Mau, with the Asian leopard cat (Prionailurus bengalensis). 
+                    The breed name comes from the leopard cat's taxonomic name.
+
+                </td>
+                <td><audio controls>
+                    <source src="audio.mp3">
+                </audio></td>
+            </tr>
+
+            <tr>
+                <td>Tiger</td>
+                <td>Grey</td>
+                <td>The Tiger is an all-domestic breed of cat which resembles a wild cat but has no wild DNA in its gene pool. The breed is unusual
+                     in that it is spotted like a wild cat but has the temperament of a domestic animal. </td>
+                <td> <ol>
+                    <li>Tiger</li>
+                    <li>Chausie</li>
+                    <li>Ocicat</li>
+                </ol></td>
+                    </tr>
+
+                    <tr>
+                        <td>Tiger</td>
+                        <td>Grey</td>
+                        <td>GO BACK TO MAIN PAGE </td>
+                        <td> <a href="index.html">main page</a></td>
+                    </tr>
+        
+        </table>
+    </body>
+</html>
+
+
+p4
+<!DOCTYPE html>
+<html>
+    <head>
+            <style>
+               
+                    h1 {
+                      color: blue;
+                      font-family: verdana;
+                      font-size: 300%;
+                    }
+                    p {
+                      color: red;
+                      font-family: courier;
+                      font-size: 160%;
+                    }
+                    </style>
+    </head>
+    <body style="background-color:orange">
+        <form>
+            <label for="fname">Name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="AGE">AGE:</label>
+            <input type="text" id="AGE" name="AGE"><br><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+            <input type="checkbox" id="C1" name="C1" value="C1">
+            <label for="C1"> Have Covid-19 Symptoms?</label><br>
+            <input type="checkbox" id="C2" name="C2" value="C2">
+            <label for="C2"> Been in Contact with a Covid Positive Patient</label><br>
+            <input type="checkbox" id="C3" name="C3" value="C3">
+            <label for="C3"> Travelled Abroad</label><br>
+            <input type="checkbox" id="C4" name="C4" value="C4">
+            <label for="C3"> Vaccinated?</label><br>
+            <input type="button" id="submit" value="SUBMIT">
+            <input type="reset" id="reset" value="RESET">
+          </form> 
+    </body>
+    
+</html>
+
+css
+body {
+    background-color:crimson
+  }
+  
+  h1 {
+    color: white
+    text-align: center;
+  }
+  
+  p {
+    font-family: Times New Roman;
+    font-size: 20px;
+  }
+
+
+
+lab 2
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> WIN A CAR </title>
+ 
+    <style>
+        body {
+    background-image: url("car.jpeg");
+  }
+        html {
+    color: white        
+    font-family: 'Georgia',Arial ,Lucida Console;
+    }
+     
+        body {
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+    }
+    body
+    {
+        background-color:crimson;
+    }
+    </style>
+</head>
+ 
+<body>
+    <h1> TRY YOUR LUCK </h1>
+ 
+    <p><I>You have to select a random number between 1 - 100.
+    To see if your win a Prize.</I></p>
+     
+    <div class="form">
+        <label for="guessField"><I>Enter a guess: </I></label>
+        <input type = "text" id = "guessField" class = "guessField">
+        <input type = "submit" value = "Submit guess"
+               class = "guessSubmit" id = "submitguess">
+    </div>
+    <script type = "text/javascript">
+ 
+        // random value generated
+        var y = Math.floor(Math.random() * 100 + 1);
+         
+        // counting the number of guesses
+        // made for correct Guess
+        var guess = 1;
+         
+        document.getElementById("submitguess").onclick = function(){
+         
+       // number guessed by user    
+       var x = document.getElementById("guessField").value;
+     
+       if(x == y)
+       {    
+           alert("HooRAY! YOUR Number matched ours You will receive a Prize. "
+                   + guess + " GUESS ");
+       }
+       else if(x > y) /* if guessed number is greater
+                       than actual number*/
+       {    
+           guess++;
+           alert("OOPS SORRY!! TRY A SMALLER NUMBER");
+       }
+       else
+       {
+           guess++;
+           alert("OOPS SORRY!! TRY AGAIN")
+       }
+    }
+</script>
+</body>
+</html> 
+
+
