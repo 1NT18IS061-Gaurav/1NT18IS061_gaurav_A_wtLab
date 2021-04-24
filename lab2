@@ -1,0 +1,149 @@
+***INDEX***
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <style>
+            body {
+        background-image: url("maths2.jpg");
+                text-align:center;
+      }
+    
+            </style>
+    </head>
+
+    <body >
+<h1><b>HELLO</b></h1>
+        <a href="armstrong.html" >ARMSTRONG NUMBER</a>
+
+</br><br>
+<a  href="fibonacci.html">FIBONACCI</a>
+
+<br><br>
+
+<a  href="array.html">ARRAY FUNCTIONS</a>
+
+</BODY>
+</html>
+
+
+***FIBONACCI SERIES***
+<!DOCTYPE html>
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+  <head>
+    <title>fibonacci.html</title>
+  </head>
+  <body style="background-color: royalblue">
+    <h3 style="text-align: center; color: white">
+      Generating the Fibonacci Series
+    </h3>
+    <script type="text/javascript">
+      var limit = prompt(
+        "Enter the limit 'n' to generate the fibonacci series:",
+        " "
+      );
+      var f1 = 0;
+      var f2 = 1;
+
+      document.write(
+        "The limit entered to generate the fibonacci series is: ",
+        limit,
+        "<br/>"
+      );
+      document.write("The fibonacci series : ");
+      document.write("", f1, " ");
+      document.write("", f2, " ");
+
+      var i, f3;
+      for (i = 2; i < limit; i++) {
+        f3 = f1 + f2;
+        document.write("", f3, " ");
+        f1 = f2;
+        f2 = f3;
+      }
+    </script>
+  </body>
+</html>
+
+
+***ARMSTRONG NUMBE***
+<!doctype html>
+<html>
+<head>
+<script>
+function armstr()
+{
+var arm=0,a,b,c,d,num;
+num=Number(document.getElementById("no_input").value);
+
+temp=num;
+while(temp>0)
+{
+a=temp%10;
+temp=parseInt(temp/10); // convert float into Integer
+arm=arm+a*a*a;
+}
+if(arm==num)
+{
+alert("Armstrong number");
+}
+else
+{
+alert("Not Armstrong number");
+}
+}
+</script>
+</head>
+<body>
+Enter any Number: <input id="no_input">
+<button onclick="armstr()">Check</button></br></br>
+</body>
+</html>
+
+
+***ADDING AND DISLAYING CONTENTS OF AN ARRAY***
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Displaying Array</title>
+<body style="background-color: mediumaquamarine">
+    <h3 style="text-align: center; color: white">
+      ADDING AND DISPLAYING ARRAY CONTENTS
+    </h3>
+<style>
+body {padding-top:50px} 
+</style> 
+
+<script>
+var x = 0;
+var array = Array();
+
+function add_element_to_array()
+{
+ array[x] = document.getElementById("text1").value;
+ alert("Element: " + array[x] + " Added at index " + x);
+ x++;
+ document.getElementById("text1").value = "";
+}
+
+function display_array()
+{
+   var e = "<hr/>";   
+    
+   for (var y=0; y<array.length; y++)
+   {
+     e += "Element " + y + " = " + array[y] + "<br/>";
+   }
+   document.getElementById("Result").innerHTML = e;
+}
+</script>
+
+</head>
+<body>
+<input type="text" id="text1"></input>
+<input type="button" id="button1" value="Add" onclick="add_element_to_array();"></input>
+<input type="button" id="button2" value="Display" onclick="display_array();"></input>
+<div id="Result"></div> 
+</body>
+</html>
